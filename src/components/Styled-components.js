@@ -35,3 +35,31 @@ export const Current = styled.div`
     color: white;
     font-size: 2.5rem;
 `
+
+export const Button = styled.button`
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px outset white;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.75);
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    //Funcion para unir botones
+    ${ ({gridSpan}) => gridSpan && `grid-column: span ${gridSpan};` } 
+
+    //Funcion para cambiar color botones operaciones
+    ${ ({operation}) => operation && `background-color: gray;` } 
+
+    //Funcion para cambiar color botones control
+    ${ ({control}) => control && `background-color: skyblue;` } 
+
+    //Funcion para cambiar color boton equals
+    ${ ({equals}) => equals && `border-bottom-right-radius: 10px; background-color: gray;` } 
+
+    //Funcion para cambiar color boton period
+    ${ ({period}) => period && `border-bottom-left-radius: 10px; background-color: skyblue;` } 
+
+
+`
