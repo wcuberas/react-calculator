@@ -14,7 +14,7 @@ export const Container = styled.div`
 
 export const Screen = styled.div`
     grid-column: 1 / -1;
-    background-color: rgba(60, 64, 67, 0.75);
+    background-color: rgb(247, 246, 242, 0.9);
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -24,42 +24,44 @@ export const Screen = styled.div`
     text-align: right;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    
 `
 
 export const Previous = styled.div`
-    color: rgba(255, 255, 255, 0.65);
+    color: rgb(240, 55, 165, 0.8);
     font-size: 1.5rem;
 `
 
 export const Current = styled.div`
-    color: white;
+    color: rgb(240, 55, 165);
     font-size: 2.5rem;
 `
 
 export const Button = styled.button`
+    color: rgb(247, 246, 242, 0.95);
     cursor: pointer;
     font-size: 2rem;
-    border: 1px outset white;
+    border: 1px outset gray;
     outline: none;
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgb(27, 23, 23, 0.55);
     &:hover {
-        background-color: rgba(255, 255, 255, 0.9);
+        background-color: rgb(27, 23, 23, 0.9);
     }
 
     //Funcion para unir botones
     ${ ({gridSpan}) => gridSpan && `grid-column: span ${gridSpan};` } 
 
     //Funcion para cambiar color botones operaciones
-    ${ ({operation}) => operation && `background-color: gray;` } 
+    ${ ({operation}) => operation && `background-color: #610094;` } 
 
     //Funcion para cambiar color botones control
-    ${ ({control}) => control && `background-color: skyblue;` } 
+    ${ ({control}) => control && `background-color: rgb(27, 23, 23, 0.55);` } 
 
     //Funcion para cambiar color boton equals
-    ${ ({equals}) => equals && `border-bottom-right-radius: 10px; background-color: gray;` } 
+    ${ ({equals}) => equals && `border-bottom-right-radius: 10px; background-color: #F7EA00; color: gray;` } 
 
     //Funcion para cambiar color boton period
-    ${ ({period}) => period && `border-bottom-left-radius: 10px; background-color: skyblue;` } 
+    ${ ({period}) => period && `border-bottom-left-radius: 10px; background-color: rgb(27, 23, 23, 0.55);` } 
 
 
 `
