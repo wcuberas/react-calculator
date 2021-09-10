@@ -1,10 +1,14 @@
 import React from 'react'
+import { Container, Current, Previous, Screen } from './Styled-components'
 
 const Calculator = () => {
     return (
-        <div>
-            Calculator
-        </div>
+        <Container>
+            <Screen>
+                <Previous>10 +</Previous>
+                <Current>200</Current>
+            </Screen>
+        </Container>
     )
 }
 
