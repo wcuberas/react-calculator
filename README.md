@@ -6,7 +6,7 @@ Development of a calculator using React js and Styled components !!!
 ---
 
 ### Calculator !
-![Start](./src/images/calculator.png)
+![Start](./src/components/images/calculator.png)
 
 ---
 
