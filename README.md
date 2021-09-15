@@ -10,9 +10,9 @@ Development of a calculator using React js and Styled components !!!
 
 ---
 
-<!-- ### Live Demo
+### Live Demo
 
-[Deploy](https://booksquizapp-2f4fa.web.app/ "Deploy") -->
+[Deploy](https://calculator-e6599.web.app/ "Deploy")
 
 ---
 
