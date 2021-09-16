@@ -62,6 +62,10 @@ const Calculator = () => {
         switch (operation) {
             case "÷":
                 result = previousNumber / currentNumber;
+                if(result === Infinity) {
+                    alert('Error valor infinito')
+                    result = '';
+                }
                 break;
             case "×":
                 result = previousNumber * currentNumber;
