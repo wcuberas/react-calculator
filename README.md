@@ -4,13 +4,13 @@ Building a calculator using React and syled components !!!
 
 ---
 
-![Calculator](./src/components/image/calculator.png)
+![Calculator](./src/components/images/calculator.png)
 
 ---
 
 ### Live Demo
 
-[Deploy](https://calculator-e6599.web.app/ "Deploy")
+👉  [Deploy](https://calculator-e6599.web.app/ "Deploy")  👈
 
 ---
 
